@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: "Archivio", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+:root{
+    --bianco: #FFFFFF;
+    --nero: #222529;
+}
+
+a {
+    color: var(--nero);
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active{
+    font-weight: bold;
+}
+
+button{
+    transition: background-color 0.4s, color 0.4s;
+}
+
+#container{
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#left-flex{
+    width: 25%;
+    a{
+        padding: 6%;
+        width: 100%;
+        border-bottom: 0.1px solid rgba(0, 0, 0, 0.8);
+    }
+}
+
+#dettagli{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 10%;
+}
+
+#titolo{
+    display: flex;
+    align-items: center;
+}
+
+#imgAccount{
+    width: 25px;
+    height: auto;
+    margin-right: 2%;
+}
+
+#datiUtente{
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.dati{
+    width: 95%;
+    border-radius: 3px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+}
+
+#cambioPassword{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.password-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.password-input {
+    width: 93%;
+    padding: 10px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--nero);
+    color: var(--bianco);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#errorePasswordUguali, #erroreCaratteristichePassword{
+    font-size: 0.9rem;
+    color: red;
+    margin-bottom: 4px;
+}

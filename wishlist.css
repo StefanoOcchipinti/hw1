@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Archivio", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+:root{
+    --bianco: #FFFFFF;
+    --nero: #222529;
+}
+
+a {
+    color: var(--nero);
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active{
+    font-weight: bold;
+}
+
+button{
+    transition: background-color 0.4s, color 0.4s;
+}
+
+#container{
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#left-flex{
+    width: 25%;
+    a{
+        padding: 6%;
+        width: 100%;
+        border-bottom: 0.1px solid rgba(0, 0, 0, 0.8);
+    }
+}
+
+#container-articoli-wishlist{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.elementoWishlist{
+    display: flex;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.immagine{
+    width: 40%;
+}
+
+.img-elemento{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.caratteristiche{
+    width: 60%;
+    margin-left: 5%;
+    padding: 6%;
+}
+
+.remove{
+    background-color: var(--nero);
+    color: var(--bianco);
+    border: none;
+    width: 30%;
+    height: auto;
+    padding: 2%;
+}

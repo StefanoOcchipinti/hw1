@@ -1,0 +1,148 @@
+#upper-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.img-upf{
+    width: 10%;
+    height: 15%;
+    margin-top: 5%;
+}
+
+.item-uf{
+    height: 100%;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#upper-footer h4{
+    color: gray;
+}
+
+#upper-footer h5{
+    color: rgba(159, 159, 159, 0.744);
+}
+
+#central-footer{
+    display: flex;
+    height: 100%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+    a:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+    
+    a:hover:after {
+        width: 100%;
+        background: var(--nero);
+    }
+    
+}
+
+.sx-cf{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sx-cf a{
+    color: gray;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.mid-cf{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.mid-cf a{
+    color: gray;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+#dx-cf{
+    width: 70%;
+}
+
+#join-the-crew{
+    margin-top: 3%;
+}
+
+#social{
+    margin-left: 25%;
+}
+
+.box-nome{
+    width: 100%;
+    padding: 1%;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.box-email{
+    width: 100%;
+    padding: 1%;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin-top: 2%;
+}
+
+#central-footer p{
+    font-size: small;
+    color: gray;
+}
+
+
+#bottone-invia{
+    color: var(--bianco);
+    background-color: var(--nero);
+    padding: 1%;
+    width: 20%;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#bottone-invia:hover{
+    color: var(--nero);
+    background-color: var(--bianco);
+}
+
+#lower-footer{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    color: var(--bianco);
+    background-color: var(--nero);
+}
+
+.sx-lf{
+    width: 45%;
+    margin-right: 5%;
+    font-size: small;
+    text-align: center;
+}
+
+.dx-lf{
+    width: 45%;
+    margin-left: 5%;
+}
+
+#payment{
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}

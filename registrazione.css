@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    background-image: url(beach-volley-24-header.jpg);
+    background-size: contain;
+}
+
+#btn-home {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+}
+
+#btn-home div {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #222529;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 130px;
+    top: 80px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    
+
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #222529;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    #username-message{
+        margin-top: -2%;
+        margin-bottom: 2.5%;
+    }
+
+    #erroreCaratteristichePassword{
+        color: red;
+        margin-top: -2%;
+        margin-bottom: 2.5%;
+    }
+}

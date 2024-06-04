@@ -1,0 +1,568 @@
+body {
+    margin: 0;
+    font-family: "Archivio", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+:root {
+    --bianco: #FFFFFF;
+    --nero: #222529;
+}
+
+a {
+    color: var(--nero);
+    text-decoration: none;
+    display: inline-block;
+}
+
+button {
+    transition: background-color 0.4s, color 0.4s;
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 850px;
+}
+
+.header-content {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    text-align: center;
+    z-index: 1;
+}
+
+#img-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header h1 {
+    color: var(--bianco);
+    font-size: 50px;
+}
+
+.pulsante-header {
+    display: inline-block;
+    width: 300px;
+    padding: 3px;
+    margin-left: -50%;
+    color: var(--nero);
+    text-align: center;
+    background-color: var(--bianco);
+    border: none;
+}
+
+.pulsante-header:hover {
+    background-color: var(--nero);
+    color: var(--bianco);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.Manicotti {
+    width: 49%;
+    height: 100%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url(ninesquared-armsleeves-home-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.Manicotti h1 {
+    margin-top: 60%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    color: var(--nero);
+    font-size: 500%;
+}
+
+.pulsante-manicotti {
+    width: 50%;
+    height: 40%;
+    margin-left: 15%;
+    margin-top: -15.5%;
+    margin-bottom: 5%;
+    padding: 0.01%;
+    color: var(--bianco);
+    background-color: var(--nero);
+    text-align: center;
+    border: none;
+}
+
+.Ginocchiere {
+    width: 49%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(ninesquared-kneepads-home.jpg);
+    background-repeat: no-repeat;
+}
+
+.Ginocchiere h1 {
+    margin-top: 60%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    color: var(--nero);
+    font-size: 500%;
+}
+
+.pulsante-ginocchiere {
+    width: 50%;
+    height: 40%;
+    margin-left: 15%;
+    margin-top: -15.5%;
+    margin-bottom: 5%;
+    padding: 0.01%;
+    color: var(--bianco);
+    background-color: var(--nero);
+    text-align: center;
+    border: none;
+}
+
+
+.pulsante-manicotti:hover,
+.pulsante-ginocchiere:hover {
+    background-color: var(--bianco);
+    color: var(--nero);
+}
+
+
+article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.art1 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1.5%;
+    margin-right: 1%;
+}
+
+.art2 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.art3 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.art4 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.art5 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.art6 {
+    width: 14, 5%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1.5%;
+}
+
+.img-art {
+    width: 100%;
+}
+
+article h4 {
+    color: gray;
+}
+
+#mostraAltro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    margin-left: 45vw;
+    margin-right: 45vw;
+}
+
+#viewMore {
+    width: 40px;
+    height: auto;
+}
+
+#container-articoli{
+    margin-left: 1vw;
+}
+
+.caricaArticoli {
+    display: grid;
+    grid-template-columns: repeat(6, 14.5vw);
+    gap: 2vw;
+}
+
+.elementoArticoli {
+    width: 14.5vw;
+}
+
+.elementoArticoli .img-elemento {
+    width: 14.5vw;
+    height: auto;
+}
+
+.elementoArticoli h4 {
+    color: gray;
+}
+
+section2 {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    background-image: url(banner-teamwear-bgr.jpg);
+}
+
+#sec-sx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+#sec-dx {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#sec-sx h1 {
+    font-size: 400%;
+    margin-top: 15%;
+}
+
+.pulsante-teamwear {
+    margin-top: -5%;
+    width: 40%;
+    height: 4%;
+    text-align: center;
+    background-color: var(--nero);
+    color: var(--bianco);
+    border: none;
+}
+
+.pulsante-teamwear:hover {
+    background-color: var(--bianco);
+    color: var(--nero);
+}
+
+#APIcontainer {
+    display: flex;
+    width: 99%;
+    height: auto;
+    align-items: flex-start;
+    margin-top: 3%;
+}
+
+#player {
+    margin-left: 5%;
+}
+
+.container-APISpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: var(--bianco);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#form-spotify {
+    width: 100%;
+}
+
+#form-spotify h2 {
+    color: var(--nero);
+    margin-bottom: 20px;
+}
+
+#form-spotify label {
+    display: block;
+    margin-top: 10px;
+    color: var(--nero);
+    font-size: 16px;
+}
+
+#form-spotify select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--nero);
+    color: var(--bianco);
+    font-size: 16px;
+}
+
+#btn_submit {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#btn_submit:hover {
+    background-color: #1ED760;
+}
+
+.risultato {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--bianco);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.song-list {
+    width: 45%;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#song-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lista-tracce {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+#img-traccia {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.titolo-traccia,
+.artista-traccia {
+    text-align: center;
+    padding: 2%;
+    color: #FFFFFF;
+}
+
+@media (max-width: 426px) {
+
+    #servizio-clienti {
+        margin-left: 15%;
+    }
+
+    #logo-ricerca {
+        margin-right: 1%;
+    }
+
+    #logo-carrello {
+        margin-right: 5%;
+    }
+
+    #logo-cuore {
+        display: none;
+    }
+
+    #logo-nav {
+        width: 30%;
+        height: 30%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .box-ricerca {
+        width: 80vw;
+    }
+
+    #logo-ricerca2 {
+        width: 4%;
+    }
+
+    #exit {
+        width: 3%;
+    }
+
+    #box1,
+    #box2,
+    #box3 {
+        display: none;
+    }
+
+    .tendina {
+        display: none;
+    }
+
+    #img-header {
+        height: 30%;
+    }
+
+    .header-content h1 {
+        font-size: 250%;
+        margin-right: 60%;
+    }
+
+    header {
+        height: 100%;
+    }
+
+    .pulsante-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 25px;
+        font-size: .7rem;
+        position: relative;
+        left: 180px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .Manicotti {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .Ginocchiere {
+        width: 100%;
+        margin-top: 2%;
+        background-size: cover;
+    }
+
+    .Manicotti h1 {
+        font-size: 3rem;
+    }
+
+    .Ginocchiere h1 {
+        font-size: 3rem;
+    }
+
+    article {
+        overflow-x: scroll;
+    }
+
+    .art1,
+    .art2,
+    .art3,
+    .art4,
+    .art5,
+    .art6 {
+        width: 30%;
+    }
+
+    
+
+    section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #teamwear-img {
+        width: 350px;
+        margin-left: -40%;
+    }
+
+    .pulsante-teamwear {
+        margin-top: -20%;
+        margin-bottom: 10%;
+        width: 200%;
+    }
+
+    #upper-footer {
+        flex-direction: column;
+    }
+
+    .item-uf {
+        width: 90%;
+        margin-left: none;
+    }
+
+    #central-footer {
+        flex-direction: column;
+    }
+
+    .sx-cf,
+    .mid-cf,
+    #dx-cf {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #lower-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dx-lf {
+        margin-left: -41%;
+    }
+}
+
+
+@media (max-width: 376px) {
+
+    #trustpilot {
+        display: none;
+    }
+
+    #logo-account,
+    #logo-cuore {
+        display: none;
+    }
+
+}
