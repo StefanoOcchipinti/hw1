@@ -77,16 +77,6 @@ CREATE TABLE `utenti` (
   `Email` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dump dei dati per la tabella `utenti`
---
-
-INSERT INTO `utenti` (`ID`, `NomeUtente`, `Password`, `Nome`, `Cognome`, `Email`) VALUES
-(2, 'Mattia03', 'MattiaBombace03', 'Mattia', 'Bombace', 'mb@gmail.com'),
-(3, 'St3ph4ndr0', 'Stefano010203!', 'Stefano', 'Occhipinti', 'stefanocchipinti@gmail.com'),
-(4, 'MartaHitler69', 'Mussolini13!', 'Marta', 'Pandolfo', 'steguwjblvnp@gmail.com');
-
--- --------------------------------------------------------
 
 --
 -- Struttura della tabella `wishlist`
